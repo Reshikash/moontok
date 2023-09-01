@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <title>your title</title>
+</head>
+<body>
+  <header class="cd-main-header js-cd-main-header">
+    <div class="cd-logo-wrapper">
+      <a href="#0" class="cd-logo">
+        <img src="assets/img/logo.jpeg" alt="Logo">
+        <h4 class="mb-0">KOJOCALLS</h4>
+      </a>
+    </div>
+    
+    <div class="cd-search js-cd-search">
+      <form>
+        <input class="reset" type="search" placeholder="Search...">
+      </form>
+    </div>
+  
+    <button class="reset cd-nav-trigger js-cd-nav-trigger" aria-label="Toggle menu"><span></span></button>
+  
+    <ul class="cd-nav__list js-cd-nav__list button-custom" style="margin-top: 14px">
+      <button class="btn-1">Add Coin</button>
+      <button>language</button>
+    </ul>
+  </header> <!-- .cd-main-header -->
+  
+  <main class="cd-main-content">
+    <nav class="cd-side-nav js-cd-side-nav">
+      <ul class="cd-side__list js-cd-side__list">
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children cd-side__item--selected">
+          <div class="svg-custom-design">
+            <i class="fa-regular fa-circle-user"></i>
+          </div>
+          <div>
+            <a href="#0">Login / Register</a>
+          </div>
+        </li>
+        <hr style="border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(55, 58, 64) currentcolor currentcolor; border-image: none; margin: 20px 0px;">
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trophy" width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line><line x1="7" y1="4" x2="17" y2="4"></line><path d="M17 4v8a5 5 0 0 1 -10 0v-8"></path><circle cx="5" cy="9" r="2"></circle><circle cx="19" cy="9" r="2"></circle></svg>
+          </div>
+          <div>
+            <a href="#0">Coin Ranking</a>
+          </div>
+        </li>
+
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path><path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path><circle cx="15" cy="9" r="1"></circle></svg>
+          </div>
+          <div>
+            <a href="#0">KojoSheet</a>
+          </div>
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <i class="fa-regular fa-newspaper"></i>
+          </div>
+          <div>
+            <a href="#0">KojoPulse</a>
+          </div>
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-radar" width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M21 12h-8a1 1 0 1 0 -1 1v8a9 9 0 0 0 9 -9"></path><path d="M15.999 8.998a5 5 0 1 0 -6.999 7.003"></path><path d="M20.486 8.995a9 9 0 1 0 -11.482 11.495"></path></svg>
+          </div>
+          <div>
+            <a href="#0">Scan Smart Contract</a>
+          </div>
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path></svg>
+          </div>
+          <div>
+            <a href="#0">KojoClip</a>
+          </div>
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <i class="fa-solid fa-window-maximize"></i>
+          </div>
+          <div>
+            <a href="#0">KojoHub</a>
+          </div>
+        </li>
+        <hr style="border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(55, 58, 64) currentcolor currentcolor; border-image: none; margin: 20px 0px;">
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-new-section" width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="9" y1="12" x2="15" y2="12"></line><line x1="12" y1="9" x2="12" y2="15"></line><path d="M4 6v-1a1 1 0 0 1 1 -1h1m5 0h2m5 0h1a1 1 0 0 1 1 1v1m0 5v2m0 5v1a1 1 0 0 1 -1 1h-1m-5 0h-2m-5 0h-1a1 1 0 0 1 -1 -1v-1m0 -5v-2m0 -5"></path></svg>
+          </div>
+          <div>
+            <a href="#0">Add Coin</a>
+          </div>
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <div class="svg-custom-design">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-speakerphone" width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M18 8a3 3 0 0 1 0 6"></path><path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5"></path><path d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8"></path></svg>
+          </div>
+          <div>
+            <a href="#0">Promote Coin</a>
+          </div>
+        </li>
+      </ul>
+      </ul>
+    </nav>
+    <div class="cd-content-wrapper">
+      <div class="text-component text-center">
+        <div class="px-0 px-lg-5">
+          <div class="px-0 px-lg-5">
+            <div style="height:62px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 8px; text-align: right; line-height:14px; block-size:50px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: none;padding:0px;padding: 5px 0; margin: 0px; width: 100%;"><div style="height:0px !important; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=dark&pref_coin_id=1505&invert_hover=no" width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div></div>
+          </div>
+          <h3 class="text-uppercase">KojoSheet</h3>
+          <p>Calculate the price of A with the market cap of B</p>
+          <section>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-4 mt-2">
+                  <div class="input-1">
+                    <form action="" method="post">
+                      <input type="text" name="select_1" placeholder="Select... ">
+                    </form>
+                    <div>
+                      <span>|</span>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-1 mt-2 downloads">
+                  <i class="fa-regular fa-circle-down"></i>
+                </div>
+                <div class="col-12 col-lg-4 mt-2">
+                  <div class="input-1">
+                    <form action="" method="post">
+                      <input type="text" name="select_1" placeholder="Select... ">
+                    </form>
+                    <div>
+                      <span>|</span>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="table-section mt-4 px-0 px-lg-5">
+            <table class="table table-hover table-responsive">
+              <thead>
+                <tr>
+                  <th style="text-align:center;position:sticky;left:0;min-width:20px;background-color:#141517;">#</th>
+                  <th style="text-align:center;position:sticky;left:25px;min-width:20px;background-color:#141517;">Promoted Coin</th>
+                  <th>1H</th>
+                  <th>6H</th>
+                  <th>24H</th>
+                  <th>Price</th>
+                  <th>Marketcap</th>
+                  <th>Social</th>
+                  <th>Links</th>
+                  <th>Launch Date</th>
+                  <th>Upvotes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="position: sticky; left: 0px; min-width: 20px; background-image: linear-gradient(rgb(20, 21, 23), rgb(20, 21, 23));">
+                    <a href="">
+                      <i class="fa-regular fa-star"></i>
+                    </a>
+                  </td>
+                  <td style="text-align: center; position: sticky; left: 30px; min-width: 20px; background-image: linear-gradient(rgb(20, 21, 23), rgb(20, 21, 23));">
+                    <a href="">
+                      <div class="d-flex justify-content-start">
+                        <div>
+                          <img src="https://api.moontok.io/storage/logos/CW8pIq4rnDxzLApqdqgIwJjQfXy8tjmHy0QI8mQb.jpg" alt="img" class="img-fluid" style="max-width: 45px; margin-right: 10px;">
+                        </div>
+                        <div class="text-start">
+                          <p class="mb-0 fw-bold">ZAFI</p>
+                          <p class="mb-0">zakummifi</p>
+                        </div>
+                      </div>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="gn">+0.02%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="rd">-0.40%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="rd">-4.71%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>0.06987</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>$2855430</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <div class="mb-0 d-flex justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="16" height="16" viewBox="0 0 24 24" stroke="#0088cc" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path></svg>
+                        <small>34k</small>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-x"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                        <small>9.9k</small>
+                      </div>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>10 Months ago</small>
+                    </a>
+                  </td>
+                  <td>
+                    <div class="d-flex justify-content-start Upvotes">
+                      <a href="" class="rd22">
+                        <i class="fa-solid fa-rocket"></i>
+                        Vote
+                      </a>
+                      <a href="" class="gr18">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        Boost
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="position: sticky; left: 0px; min-width: 20px; background-image: linear-gradient(rgb(20, 21, 23), rgb(20, 21, 23));">
+                    <a href="">
+                      <i class="fa-regular fa-star"></i>
+                    </a>
+                  </td>
+                  <td style="text-align: center; position: sticky; left: 30px; min-width: 20px; background-image: linear-gradient(rgb(20, 21, 23), rgb(20, 21, 23));">
+                    <a href="">
+                      <div class="d-flex justify-content-start">
+                        <div>
+                          <img src="https://api.moontok.io/storage/logos/aoYOklJJBpcb2LgPTHi7FmrLfeJ3gz8m849kUzcg.jpg" style="max-width: 45px; margin-right: 10px;">
+                        </div>
+                        <div class="text-start">
+                          <p class="mb-0 fw-bold">GM</p>
+                          <p class="mb-0">GM</p>
+                        </div>
+                      </div>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="rd">-23.76%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="gn">+629.00%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="gn">+629.00%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>0.00000044267</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>$18.624</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <div class="mb-0 d-flex justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="16" height="16" viewBox="0 0 24 24" stroke="#0088cc" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path></svg>
+                        <small>34k</small>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-x"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                        <small>9.9k</small>
+                      </div>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>6 Months ago</small>
+                    </a>
+                  </td>
+                  <td>
+                    <div class="d-flex justify-content-start Upvotes">
+                      <a href="" class="rd22 rd69">
+                        <i class="fa-solid fa-rocket"></i>
+                        Vote
+                      </a>
+                      <a href="" class="gr18 gr87">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        Boost
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="position: sticky; left: 0px; min-width: 20px; background-image: linear-gradient(rgb(20, 21, 23), rgb(20, 21, 23));">
+                    <a href="">
+                      <i class="fa-regular fa-star"></i>
+                    </a>
+                  </td>
+                  <td style="text-align: center; position: sticky; left: 30px; min-width: 20px; background-image: linear-gradient(rgb(20, 21, 23), rgb(20, 21, 23));">
+                    <a href="">
+                      <div class="d-flex justify-content-start">
+                        <div>
+                          <img src="https://api.moontok.io/storage/logos/T1O9YSFXZdCl5sJi6vr6ZrTXTiKPWPKFiuUpOBVr.jpg" style="max-width: 45px; margin-right: 10px;">
+                        </div>
+                        <div class="text-start">
+                          <p class="mb-0 fw-bold">PEPE2014</p>
+                          <p class="mb-0">PEPE2014</p>
+                        </div>
+                      </div>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="rd">-1.30%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="gn">+13.87%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small class="gn">+13.87%</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>0.000232367</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>$2824</small>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <div class="mb-0 d-flex justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="16" height="16" viewBox="0 0 24 24" stroke="#0088cc" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path></svg>
+                        <small>21k</small>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-x"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                        <small>2.9k</small>
+                      </div>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </td>
+                  <td>
+                    <a href="">
+                      <small>3 Months ago</small>
+                    </a>
+                  </td>
+                  <td>
+                    <div class="d-flex justify-content-start Upvotes">
+                      <a href="" class="rd22 rd100">
+                        <i class="fa-solid fa-rocket"></i>
+                        Vote
+                      </a>
+                      <a href="" class="">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        Boost
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+        <footer class="px-5 pt-5 ps-0 ps-lg-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-4 ps-3 ps-lg-5">
+                <a href="#0" class="cd-logo d-flex justify-content-start">
+                  <div>
+                    <img src="assets/img/logo.jpeg" alt="Logo">
+                  </div>
+                  <h4 class="mb-4">KOJOCALLS</h4>
+                </a>
+                <div class="d-flex justify-content-start icons mt-3">
+                  <a href="">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </div>
+                <p class="text-start mt-3">Number 1 crypto index site for chinese and global communities. Get the latest crypto info to catch moonshots early.</p>
+
+                <p class="mt-4 text-start">
+                  <small>kojotok.io © All Rights Reserved.</small>
+                </p>
+              </div>
+              <div class="col-12 col-md-1"></div>
+              <div class="col-12 col-md-2">
+                <p class="fw-bold text-start">Pages</p>
+                <p class="text-start">
+                  <a href="">Coin Ranking</a>
+                </p>
+                <p class="text-start">
+                  <a href="">Add Coin</a>
+                </p>
+                <p class="text-start">
+                  <a href="">Promote Coin</a>
+                </p>
+              </div>
+              <div class="col-12 col-md-1"></div>
+              <div class="col-12 col-md-2">
+                <p class="fw-bold text-start">Company</p>
+                <p class="text-start">
+                  <a href="">Moontok Verify</a>
+                </p>
+                <p class="text-start">
+                  <a href="">Partnerships</a>
+                </p>
+                <p class="text-start">
+                  <a href="">Disclaimer</a>
+                </p>
+                <p class="text-start">
+                  <a href="">Privacy Policy</a>
+                </p>
+              </div>
+              <div class="col-12 col-md-2"></div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/menu-aim.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
